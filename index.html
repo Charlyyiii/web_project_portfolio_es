@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portafolio personal de Carlos A. Vazquez Tohorton, desarrollador web."
+    />
+    <title>Carlos A. Vazquez Tohorton | Portafolio</title>
+
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="#top" aria-label="Ir al inicio"> CVT </a>
+
+        <nav class="header__navigation">
+          <ul class="header__links">
+            <li class="header__item">
+              <a class="header__link" href="#profile">Perfil</a>
+            </li>
+
+            <li class="header__item">
+              <a class="header__link" href="#projects">Proyectos</a>
+            </li>
+
+            <li class="header__item">
+              <a class="header__link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="main">
+      <!-- PERFIL -->
+      <section id="profile" class="profile">
+        <div class="profile__content">
+          <div class="profile__text">
+            <h1 class="profile__title">Carlos A. Vazquez Tohorton</h1>
+
+            <p class="profile__subtitle">Desarrollador web</p>
+
+            <p class="profile__description">
+              Desarrollador web junior con experiencia práctica creando
+              interfaces limpias y responsivas con HTML, CSS, JavaScript y
+              React, así como implementando lógica básica de back-end. Ha
+              trabajado en proyectos formativos que siguen procesos reales de
+              desarrollo, usando Git, GitHub y Figma. Disfruta colaborar en
+              equipo, mantener un código claro y resolver problemas de forma
+              estructurada. Motivada por seguir aprendiendo, asumir nuevos retos
+              y aprovechar oportunidades para crecer como desarrolladora.
+            </p>
+
+            <div class="profile__links">
+              <a class="profile__link" href="#projects"> Ver proyectos </a>
+
+              <a class="profile__link" href="./files/CV-Mariana-Hernandez.pdf">
+                Descargar CV
+              </a>
+            </div>
+          </div>
+
+          <div class="profile__image-container">
+            <img
+              class="profile__image"
+              src="./images/profile.jpg"
+              alt="Mariana Hernández frente a una computadora"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- HABILIDADES -->
+      <section class="skills">
+        <h2 class="section-title">Habilidades y herramientas</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/html.svg"
+              alt="Logo de HTML"
+            />
+            <span class="skills__name">HTML</span>
+          </li>
+
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/css.svg"
+              alt="Logo de CSS"
+            />
+            <span class="skills__name">CSS</span>
+          </li>
+
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/javascript.svg"
+              alt="Logo de JavaScript"
+            />
+            <span class="skills__name">JavaScript</span>
+          </li>
+
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/react.svg"
+              alt="Logo de React"
+            />
+            <span class="skills__name">React</span>
+          </li>
+
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/git.svg"
+              alt="Logo de Git"
+            />
+            <span class="skills__name">Git</span>
+          </li>
+
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/github.svg"
+              alt="Logo de GitHub"
+            />
+            <span class="skills__name">GitHub</span>
+          </li>
+
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/figma.svg"
+              alt="Logo de Figma"
+            />
+            <span class="skills__name">ChatGPT</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section id="projects" class="projects">
+        <h2 class="section-title">Proyectos destacados</h2>
+
+        <div class="projects__grid">
+          <!-- PROYECTO 1 -->
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img
+                class="project-card__image"
+                src="./images/triple-espresso.png"
+                alt="Vista previa del proyecto Triple Espresso"
+              />
+
+              <div class="project-card__overlay" aria-hidden="true"></div>
+
+              <div class="project-card__technologies">
+                <span class="project-card__technology"> HTML </span>
+
+                <span class="project-card__technology"> CSS </span>
+              </div>
+            </div>
+
+            <div class="project-card__content">
+              <h3 class="project-card__title">Triple Espresso</h3>
+
+              <p class="project-card__description">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional. Logro: Implementé desde cero
+                el diseño completo de la página, organicé el proyecto con buenas
+                prácticas y publiqué la versión final utilizando GitHub Pages.
+              </p>
+
+              <div class="project-card__links">
+                <a
+                  class="project-card__link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver proyecto
+                </a>
+
+                <a
+                  class="project-card__link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROYECTO 2 -->
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img
+                class="project-card__image"
+                src="./images/code-project.png"
+                alt="Ilustración de un proyecto de desarrollo web"
+              />
+
+              <div class="project-card__overlay" aria-hidden="true"></div>
+
+              <div class="project-card__technologies">
+                <span class="project-card__technology"> HTML </span>
+
+                <span class="project-card__technology"> CSS </span>
+              </div>
+            </div>
+
+            <div class="project-card__content">
+              <h3 class="project-card__title">Proyecto web</h3>
+
+              <p class="project-card__description">
+                Proyecto enfocado en la creación de interfaces modernas y
+                responsivas.
+              </p>
+
+              <div class="project-card__links">
+                <a
+                  class="project-card__link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver proyecto
+                </a>
+
+                <a
+                  class="project-card__link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+      <div class="footer__content">
+        <a class="footer__email" href="mailto:student@tripleten.com">
+          student@tripleten.com
+        </a>
+
+        <ul class="footer__socials">
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/xtwitter.svg"
+                alt="X"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
