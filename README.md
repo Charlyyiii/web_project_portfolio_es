@@ -31,4 +31,4 @@ El proyecto está diseñado para ser responsivo y adaptarse a diferentes tamaño
 
 ## GitHub Pages
 
-[Ver proyecto en GitHub Pages] [github proyect](https://github.com/Charlyyiii/web_project_portfolio_es)
+[Ver proyecto en GitHub Pages](https://charlyyiii.github.io/web_project_portfolio_es/)
